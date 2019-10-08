@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/MobileApp.unity
+    guid: ccb836e31dba83841bb2120712b3741a
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/Raycast.unity
+    guid: 6c94c849b074e2c4883092293f337b1f
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/HandTracking.unity
+    guid: c027f118f9ccd4979b8795eb3900db70
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/ImageTracking.unity
+    guid: c4cc7b27d61667f419c09727a517e1a8
+  - enabled: 0
+    path: Assets/Scenes/HandGlancing.unity
+    guid: 08715c7658327e04b98a11986702c9da
+  - enabled: 0
+    path: Assets/Scenes/Calibration.unity
+    guid: e876553182564f842998e7f64a409575
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/Persistence.unity
+    guid: e79870b2eb36346328264d71a965cd0a
+  - enabled: 0
+    path: Assets/Scenes/Eye_Glancing.unity
+    guid: 7c10ff41a8d49b54d8934be708012b00
+  - enabled: 0
+    path: Assets/Scenes/Eye_Glancing_M.unity
+    guid: 328f3a24528443948bd31a44bb73f79b
+  - enabled: 0
+    path: Assets/Scenes/EyeTracking.unity
+    guid: dac943f47675e954f9971b6331e8e7f5
+  - enabled: 0
+    path: Assets/Scenes/EyeTracking_M.unity
+    guid: 91575c1ad0929d64eb91dd04c4ee43e2
+  - enabled: 0
+    path: Assets/Scenes/Glanceable.unity
+    guid: 5d3fda70d81985e4e87fbde7c68f1586
+  - enabled: 0
+    path: Assets/Scenes/Glanceable_M.unity
+    guid: d1ce7faf3bb2f3041ab7961694581425
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/ImageCapture.unity
+    guid: be6f49865dba3435b80c78e53e77301e
+  - enabled: 0
+    path: Assets/Scenes/EyeGlanPer.unity
+    guid: 19179a7cb0c5ef249b3cb5e32760d4e1
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/VideoCapture.unity
+    guid: 14c17404942524712996f803abef0537
+  - enabled: 1
+    path: Assets/Scenes/Scene.unity
+    guid: ce71b8717918ef04fababd8cc04475dc
+  - enabled: 0
+    path: Assets/Scenes/Exp1.unity
+    guid: 7d2dda85e4e233640814cf923584ff19
+  - enabled: 0
+    path: Assets/Scenes/Exp2.unity
+    guid: 315a7cc54a228ba449481cdf88fafcf7
+  - enabled: 0
+    path: Assets/Scenes/Exp3.unity
+    guid: 1f9cf7622ded9ec43a696cc681ca394f
+  - enabled: 0
+    path: Assets/Scenes/Exp4.unity
+    guid: ec0a18464c045a6458d8cfa7f26166ac
+  - enabled: 0
+    path: Assets/Scenes/Exp5.unity
+    guid: 5ca6072889f350b4d8a7bb702d4bf1d1
+  - enabled: 0
+    path: Assets/Scenes/Exp6.unity
+    guid: 25d2519c78cf5844fb813f309ddff26d
+  m_configObjects: {}
