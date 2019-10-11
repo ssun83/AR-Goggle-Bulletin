@@ -9,6 +9,9 @@ TagManager:
   - PingSphere
   - CameraController
   - Marker
+  - Emoji
+  - picker
+  - Brush
   layers:
   - Default
   - TransparentFX

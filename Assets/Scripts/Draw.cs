@@ -4,25 +4,28 @@ using UnityEngine;
 
 public class Draw : MonoBehaviour
 {
-    private LineRenderer lr;
+    public LineRenderer lr;
+    public TextMesh text;
     List<Vector3> points;
     // Start is called before the first frame update
-    void Start()
-    {
-        lr = GetComponent<LineRenderer>();
-    }
 
     public void UpdateLine(Vector3 pos) {
         if (points == null)
         {
+            text.transform.position = pos;
+            text.text = pos + "";
             points = new List<Vector3>();
             SetPoint(pos);
             return;
         }
-        if (Vector3.Distance(points[points.Count - 1], pos) > 0.01f)
+        if (Vector3.Distance(points[points.Count - 1], pos) > 0.005f)
         {
             SetPoint(pos);
         }
+    }
+
+    public void SetMaterial(Material mat) {
+        lr.GetComponent<Renderer>().material = mat;
     }
 
     void SetPoint(Vector3 point) {

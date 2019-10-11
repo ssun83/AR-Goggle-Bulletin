@@ -10,8 +10,11 @@ public class ModeControl : MonoBehaviour
     public userMode mode = userMode.draw;
     public bool isDrawing = true;
     public GameObject DrawTip;
-    public GameObject emojiPos;
-    public GameObject emoji;
+    public GameObject emojiCanvas;
+    public GameObject Palette;
+    public GameObject[] emoji;
+    public GameObject[] emojiprfab;
+    public Material[] Brushes;
     public GameObject parent;
     // Start is called before the first frame update
     void Start()
@@ -26,6 +29,11 @@ public class ModeControl : MonoBehaviour
         
     }
 
+    private void OnDestroy()
+    {
+        MLInput.OnTriggerDown -= OnTriggerDown;
+        MLInput.OnControllerButtonDown -= OnButtonDown;
+    }
 
     #region Event Handlers
     /// <summary>
@@ -42,12 +50,14 @@ public class ModeControl : MonoBehaviour
                 if (mode == userMode.draw) {
                     mode = userMode.emoji;
                     DrawTip.SetActive(false);
-                    emojiPos.SetActive(true);
+                    emojiCanvas.SetActive(true);
+                    Palette.SetActive(false);
                     isDrawing = false;
                 } else {
                     mode = userMode.draw;
                     DrawTip.SetActive(true);
-                    emojiPos.SetActive(false);
+                    emojiCanvas.SetActive(false);
+                    Palette.SetActive(true);
                     isDrawing = true;
                 }
             }
@@ -57,11 +67,12 @@ public class ModeControl : MonoBehaviour
     {
         if (_controllerConnectionHandler.IsControllerValid(controllerId) && mode == userMode.emoji)
         {
-            if (mode == userMode.emoji)
+            if (mode == userMode.emoji && EmojiSelect.currentSelect != -1)
             {
-                GameObject temp = Instantiate(emoji, emojiPos.transform.position, emojiPos.transform.rotation);
-                temp.transform.SetParent(parent.transform);
+                GameObject temp = Instantiate(emojiprfab[EmojiSelect.currentSelect], emoji[EmojiSelect.currentSelect].transform.position, Quaternion.identity);
+                //temp.transform.SetParent(parent.transform);
             }
+
         }
     }
 

@@ -1,0 +1,283 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "a4574a40532c6a1adab4e39896299da7c7ac381c",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 4684976,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "f00c9ab8d4b6cc852fef90724e7640e66d80699a",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 67657520,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Eric Lu\\Documents\\GitHub\\AR-Goggle-Bulletin\\3divt.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "e223adc3f0b487416074fc12ff0020907153944c",
+   "xfrm_path": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/.out/.cache/debug_lumin_clang-3.8_aarch64/com.magicleap.cscwdemo-18ff63f825f2fb90\\libil2cpp.so-b32bd8bc2d4214ef",
+   "xfrm_size": 67658278
+  },
+  {
+   "compression": 8,
+   "hash": "6b3b1067e8eeb28457c572292a209cc931e93089",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 269360,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Eric Lu\\Documents\\GitHub\\AR-Goggle-Bulletin\\3divt.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "596bd9df31aa934e7f08e65706f725129cbc5108",
+   "xfrm_path": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/.out/.cache/debug_lumin_clang-3.8_aarch64/com.magicleap.cscwdemo-18ff63f825f2fb90\\AudioPluginMSASpatializer.so-441b26777ca0e5ba",
+   "xfrm_size": 270118
+  },
+  {
+   "compression": 8,
+   "hash": "b002f7ff9de70e23939b060c3485cab205ba56e2",
+   "pkgpath": "bin/Photon3Unity3D.dll",
+   "size": 184320,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Plugins/Photon3Unity3D.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "bbc80f7c79244d6923d3a218de1cd6ecb043c28c",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 100864,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "06995ecae530eca2b6f5337b27dbdfcb727599da",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 1495800,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Eric Lu\\Documents\\GitHub\\AR-Goggle-Bulletin\\3divt.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "b8c28089f8a20948d955c7be28472d8d259e8f28",
+   "xfrm_path": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/.out/.cache/debug_lumin_clang-3.8_aarch64/com.magicleap.cscwdemo-18ff63f825f2fb90\\UnityMagicLeap.so-441b26777ca0e5ba",
+   "xfrm_size": 1496558
+  },
+  {
+   "compression": 8,
+   "hash": "e36553e9a3113280d39db515a350a0036cda878d",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Eric Lu\\Documents\\GitHub\\AR-Goggle-Bulletin\\3divt.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "2ade3937cae3a1205e3a6564c8ad5ae547c92c82",
+   "xfrm_path": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/.out/.cache/debug_lumin_clang-3.8_aarch64/com.magicleap.cscwdemo-18ff63f825f2fb90\\libml_camera_plugin.so-441b26777ca0e5ba",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "0ee8bd5ed3f83c8d11c84a597fb375ec525b0642",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 67624,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Eric Lu\\Documents\\GitHub\\AR-Goggle-Bulletin\\3divt.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "3619a05b2176a962984b09bdb361093ae1c7125e",
+   "xfrm_path": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/.out/.cache/debug_lumin_clang-3.8_aarch64/com.magicleap.cscwdemo-18ff63f825f2fb90\\libml_mediaplayer_plugin.so-441b26777ca0e5ba",
+   "xfrm_size": 68382
+  },
+  {
+   "compression": 8,
+   "hash": "984e4d2049ed5491b970ba15d1e8c8cadac0896e",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 339968,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "63c7ca62020949b1c87b1439f31b7a9719db98c1",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3652028,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "a3a225a3cc17e820a1d1c850a6bd1a7a255813d5",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 754668,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "07a1a6072f5e1bb3a3f4905632232dc66e76c2d5",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 168,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "9f9d9fdfae69214ea57a2416e60a9fe924367caa",
+   "pkgpath": "Data/boot.config",
+   "size": 144,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "5215490a4031fbbc7f8a3385e84b89849bb41478",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 78296,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "733b992b5dc57aaa8a63489725efe3fbe21fd7da",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 92888,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "ed4ff0a4fe17362abae381eae5ca47b0b1427f6f",
+   "pkgpath": "Data/level0",
+   "size": 41012,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "650f98f51536b1847b0b91cc7361a80c54631f9b",
+   "pkgpath": "Data/resources.assets",
+   "size": 24380480,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/resources.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "b553c3cccc2b39800a0f1304e3e7a47042b96d52",
+   "pkgpath": "Data/resources.assets.resS",
+   "size": 28749712,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/resources.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "d40c6792d423dc2c01b81bf9d6884c369250e418",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 6108928,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "e0a978b90f1c0552daf910bff73a79cbf61f5f3b",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 45387968,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "82e29a57d987fd3c3fcb10398bc7035e5effa13a",
+   "pkgpath": "bin/Player.elf",
+   "size": 19706856,
+   "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Eric Lu\\Documents\\GitHub\\AR-Goggle-Bulletin\\3divt.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "32d7ef90a939a3e3172dedefea93723d291bbef8",
+   "xfrm_path": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/.out/.cache/debug_lumin_clang-3.8_aarch64/com.magicleap.cscwdemo-18ff63f825f2fb90\\Player.elf-49497af593027aef",
+   "xfrm_size": 19707614
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "C:/Users/Eric Lu/MagicLeap/mlsdk/v0.21.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Eric Lu\\Documents\\GitHub\\AR-Goggle-Bulletin\\3divt.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "2ef9eae2954f4a6998493f5adcc70527c38fdd92",
+   "xfrm_path": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/.out/.cache/debug_lumin_clang-3.8_aarch64/com.magicleap.cscwdemo-18ff63f825f2fb90\\libc++_shared.so-cc334a9a5956f8b7",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "031d511fa9711b8c59e5859132923cc71f3ed2bb",
+   "pkgpath": "manifest.xml",
+   "size": 3433,
+   "src": "C:\\Users\\Eric Lu\\Documents\\GitHub\\AR-Goggle-Bulletin\\Temp\\StagingArea\\manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "e6820b57b90530cfabd1adde5111ee4ac43a3ad4",
+     "developer_id": "9ec76133-9536-4a01-b5f7-aa0ade541f02"
+    }
+   },
+   "xfrm_hash": "b6215ed701c94ad4ab6ff631d561c16d5a4198d3",
+   "xfrm_path": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/.out/.cache/debug_lumin_clang-3.8_aarch64/com.magicleap.cscwdemo-18ff63f825f2fb90\\manifest.xml-49497af593027aef",
+   "xfrm_size": 1148
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "C:\\Users\\Eric Lu\\Documents\\GitHub\\AR-Goggle-Bulletin\\3divt.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "C:\\Users\\Eric Lu\\Documents\\GitHub\\AR-Goggle-Bulletin\\3divt.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}
