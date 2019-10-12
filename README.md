@@ -3,7 +3,19 @@
 
 This repository is created for CSCW class project @ VT
 
-Our first goal is to **develop a working prototype** in **Augmented Reality head-worn displays**, where users are allowed to *create* and *view* virtual posts in the real world.
+Our first goal is to **develop a working prototype** in **Augmented Reality head-worn displays**, where users are allowed to collaboratively *create*/ *draw* artwork in the real world, or *comment*  on existing artworks in the gallery by overlaying new drawings.
+
+## Update Oct. 11th ![Message](https://img.shields.io/badge/-Support-brightgreen)
+Important Update to the project:
+
+- Optional brushes for drawing
+  - 7 optional colors
+  - Shaky effect on lines
+
+- More emoji support
+  - 5 emojis embedded
+  - more on the way!
+
 ## Update Oct. 8th ![Message](https://img.shields.io/badge/-Important!-success)
 Important commit to the project:
 
