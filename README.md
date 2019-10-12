@@ -8,17 +8,21 @@ Our first goal is to **develop a working prototype** in **Augmented Reality head
 ## Update Oct. 11th ![Message](https://img.shields.io/badge/-Support-brightgreen)
 Important Update to the project:
 - Optional brushes for drawing
-  - 7 optional colors       
-  - Shaky effect on lines  
-- More emoji support
-  - 5 emojis embedded  
-  - more on the way!
-    
-    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo1.gif" width="280">
+    - 7 optional colors
+    - Shaky effect on lines
+  
+     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo1.gif" width="280">
+     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo4.gif" width="280">
+     
+- Supporting more emojis
+    - 5 optional emojis (Source: <a href="https://www.freepik.com/free-photos-vectors/heart">Heart vector created by rawpixel.com - www.freepik.com</a>)
+    - more coming soon! 
+  
     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo2.gif" width="280">
-    
-    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo3.gif" width="280">
-    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo4.gif" width="280">
+    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo3.gif" width="280"> 
+
+
+
 ## Update Oct. 8th ![Message](https://img.shields.io/badge/-Important!-success)
 Important commit to the project:
 
