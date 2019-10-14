@@ -14,11 +14,15 @@ public class Draw3D : MonoBehaviour
     public GameObject parent;
     public ModeControl mc;
     public Material[] MatList;
+
+    public List<GameObject> strokes;
     // Start is called before the first frame update
     void Start()
     {
         MLInput.OnTriggerUp += HandleOnTriggerUp;
         MLInput.OnTriggerDown += HandleOnTriggerDown;
+        MLInput.OnControllerButtonDown += HandleOnButtonDown;
+        strokes = new List<GameObject>();
     }
 
     // Update is called once per frame
@@ -70,7 +74,23 @@ public class Draw3D : MonoBehaviour
             temp = Instantiate(Line);
             activeLine = temp.GetComponent<Draw>();
             activeLine.SetMaterial(DrawTip.GetComponent<Renderer>().material);
+            strokes.Add(temp);
             key = true;
+        }
+    }
+
+    private void HandleOnButtonDown(byte controllerId, MLInputControllerButton button)
+    {
+        MLInputController controller = _controllerConnectionHandler.ConnectedController;
+        if (controller != null && controller.Id == controllerId &&
+            button == MLInputControllerButton.HomeTap && mc.isDrawing)
+        {
+            int count = strokes.Count;
+            if (count > 0)
+            {
+                Destroy(strokes[count - 1]);
+                strokes.RemoveAt(count - 1);
+            }
         }
     }
 
@@ -78,5 +98,6 @@ public class Draw3D : MonoBehaviour
     {
         MLInput.OnTriggerUp -= HandleOnTriggerUp;
         MLInput.OnTriggerDown -= HandleOnTriggerDown;
+        MLInput.OnControllerButtonDown -= HandleOnButtonDown;
     }
 }

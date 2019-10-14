@@ -899,6 +899,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: e51b6ed26a951494faf36771d78244e6, type: 2}
   - {fileID: 2100000, guid: 4f148af45b8427643b6afa31ade64e28, type: 2}
   - {fileID: 2100000, guid: bc6feccc5d312ef42bcb90c6cb53f03b, type: 2}
+  strokes: []
 --- !u!4 &488007851
 Transform:
   m_ObjectHideFlags: 0

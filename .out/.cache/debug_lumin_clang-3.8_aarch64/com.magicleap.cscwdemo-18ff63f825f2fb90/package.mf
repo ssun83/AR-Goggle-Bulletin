@@ -2,16 +2,16 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "a4574a40532c6a1adab4e39896299da7c7ac381c",
+   "hash": "10df68df79ca47fcce2e391c3999b722ea157efa",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 4684976,
+   "size": 4685424,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "f00c9ab8d4b6cc852fef90724e7640e66d80699a",
+   "hash": "a612bc4b2c57221424fac83a441cf3ee0ba9fdb7",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 67657520,
+   "size": 67662832,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -23,9 +23,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "e223adc3f0b487416074fc12ff0020907153944c",
+   "xfrm_hash": "e20b1c4a946fae8cf862564420bc724ce68a8c50",
    "xfrm_path": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/.out/.cache/debug_lumin_clang-3.8_aarch64/com.magicleap.cscwdemo-18ff63f825f2fb90\\libil2cpp.so-b32bd8bc2d4214ef",
-   "xfrm_size": 67658278
+   "xfrm_size": 67663590
   },
   {
    "compression": 8,
@@ -165,23 +165,23 @@
   },
   {
    "compression": 8,
-   "hash": "5215490a4031fbbc7f8a3385e84b89849bb41478",
+   "hash": "b6ae68f9389b79414db92fbe26dc6d876b3651fc",
    "pkgpath": "Data/globalgamemanagers",
    "size": 78296,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "733b992b5dc57aaa8a63489725efe3fbe21fd7da",
+   "hash": "214135306440b6bd20f73a8c4d8af24f13140ed6",
    "pkgpath": "Data/globalgamemanagers.assets",
    "size": 92888,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "ed4ff0a4fe17362abae381eae5ca47b0b1427f6f",
+   "hash": "c7fc2782ecf54935f9a5f7ebb8271661edb4fbab",
    "pkgpath": "Data/level0",
-   "size": 41012,
+   "size": 41020,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/level0"
   },
   {
