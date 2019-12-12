@@ -7,43 +7,41 @@ Our first goal is to **develop a working prototype** in **Augmented Reality head
 
 ## Update Nov. 19th ![Message](https://img.shields.io/badge/-Important!-success)
 Important Update to the project:
-- Added haptic feedback
+- Added **Haptic Feedback**!
   - The controller now buzz when user change brush, emojis, draw, place emojis and select.
 
 ## Update Nov. 14th ![Message](https://img.shields.io/badge/-Important!-success)
 Important Update to the project:
-- Added Selection feature!
+- Added **Selection** feature!
   - Users are allowed to Multi-select emojis and strokes
   - Counters inform users about how many items they have selected
   - After selection, they can
     - Grab and Move the selected emojis and strokes
     - Delete the selected smojis and strokes all at once
-    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo6.gif" width="280">
-    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo8.gif" width="280">
+    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo6.gif" width="250">
+    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo8.gif" width="250">
 
 ## Update Nov. 3rd ![Message](https://img.shields.io/badge/-Minor-critical)
 Minor Adjustments:
 - Improved drawing/emoji feature for ore accurate manipulation
   - Emojis can be scaled freely with the controller
   - Interactions are made more consistent to reduce potential errors<br><br>
-     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo7.gif" width="280">
-     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo5.gif" width="280">
+     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo7.gif" width="250">
+     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo5.gif" width="250">
 
 ## Update Oct. 11th ![Message](https://img.shields.io/badge/-Important!-success)
 Important Update to the project:
 - Optional brushes for drawing
   - 7 optional colors
   - Shaky effect on lines<br><br>
-     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo1.gif" width="280">
-     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo4.gif" width="280">
+     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo1.gif" width="250">
+     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo4.gif" width="250">
      
 - Supporting more emojis
   - 5 optional emojis (Source: <a href="https://www.freepik.com/free-photos-vectors/heart">Heart vector created by rawpixel.com - www.freepik.com</a>)
   - more coming soon!<br><br>
-    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo2.gif" width="280">
-    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo3.gif" width="280"> 
-
-
+    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo2.gif" width="250">
+    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo3.gif" width="250"> 
 
 ## Update Oct. 8th ![Message](https://img.shields.io/badge/-Important!-success)
 Important commit to the project:
