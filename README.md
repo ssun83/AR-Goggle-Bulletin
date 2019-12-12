@@ -1,11 +1,11 @@
-# Augmented Reality Bulletin Board
+# Augmented Reality Collaborative Drawing App
 [![Member](https://img.shields.io/badge/Member-Alyssa-blueviolet)](https://github.com/akherbst2) [![Member](https://img.shields.io/badge/Member-Feiyu-blue)](https://github.com/ericlu19) [![Member](https://img.shields.io/badge/Member-Shuyi-ff69b4)](https://github.com/ssun83) [![Advisor](https://img.shields.io/badge/Advisor-Dr.%20Sang-important)](https://people.cs.vt.edu/sangwonlee/)
 
-This repository is created for CS5734 CSCW class project @ VT
+This repository is created for **CS5734 CSCW class project @ VT**
 
 Our first goal is to **develop a working prototype** in **Augmented Reality head-worn displays**, where users are allowed to collaboratively *create*/ *draw* artwork in the real world, or *comment*  on existing artworks in the gallery by overlaying new drawings.
 
-## Update Nov. 19th ![Message](https://img.shields.io/badge/-Important!-success)
+## Update Nov. 20th ![Message](https://img.shields.io/badge/-Important!-success)
 Important Update to the project:
 - Added **Haptic Feedback**!
   - The controller now buzz when user change brush, emojis, draw, place emojis and select.
@@ -45,7 +45,6 @@ Important Update to the project:
 
 ## Update Oct. 8th ![Message](https://img.shields.io/badge/-Important!-success)
 Important commit to the project:
-
 - **Working prorotype** of the AR bulletin board app on **Magic Leap One AR Headset**
 - Functions developed:
   - Image target recognition
