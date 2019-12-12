@@ -5,6 +5,11 @@ This repository is created for CS5734 CSCW class project @ VT
 
 Our first goal is to **develop a working prototype** in **Augmented Reality head-worn displays**, where users are allowed to collaboratively *create*/ *draw* artwork in the real world, or *comment*  on existing artworks in the gallery by overlaying new drawings.
 
+## Update Nov. 19th ![Message](https://img.shields.io/badge/-Important!-success)
+Important Update to the project:
+- Added haptic feedback
+  - The controller now buzz when user change brush, emojis, draw, place emojis and select.
+
 ## Update Nov. 14th ![Message](https://img.shields.io/badge/-Important!-success)
 Important Update to the project:
 - Added Selection feature!
