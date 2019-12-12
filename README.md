@@ -5,6 +5,21 @@ This repository is created for CSCW class project @ VT
 
 Our first goal is to **develop a working prototype** in **Augmented Reality head-worn displays**, where users are allowed to collaboratively *create*/ *draw* artwork in the real world, or *comment*  on existing artworks in the gallery by overlaying new drawings.
 
+## Update Nov. 14th ![Message](https://img.shields.io/badge/-Important!-success)
+Important Update to the project:
+- Added Selection feature!
+  - Users are allowed to Multi-select emojis and strokes
+  - Counters inform users about how many items they have selected
+  - After selection, they can
+    - Grab and Move the selected emojis and strokes
+    - Delete the selected smojis and strokes all at once
+
+## Update Nov. 3rd ![Message](https://img.shields.io/badge/-Important!-success)
+Minor Adjustments:
+- Improved drawing/emoji feature for ore accurate manipulation
+  - Emojis can be scaled freely with the controller
+- Interactions are made more consistent to reduce potential errors
+
 ## Update Oct. 11th ![Message](https://img.shields.io/badge/-Important!-success)
 Important Update to the project:
 - Optional brushes for drawing
