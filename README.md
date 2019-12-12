@@ -1,7 +1,7 @@
 # Augmented Reality Bulletin Board
 [![Member](https://img.shields.io/badge/Member-Alyssa-blueviolet)](https://github.com/akherbst2) [![Member](https://img.shields.io/badge/Member-Feiyu-blue)](https://github.com/ericlu19) [![Member](https://img.shields.io/badge/Member-Shuyi-ff69b4)](https://github.com/ssun83) [![Advisor](https://img.shields.io/badge/Advisor-Dr.%20Sang-important)](https://people.cs.vt.edu/sangwonlee/)
 
-This repository is created for CSCW class project @ VT
+This repository is created for CS5734 CSCW class project @ VT
 
 Our first goal is to **develop a working prototype** in **Augmented Reality head-worn displays**, where users are allowed to collaboratively *create*/ *draw* artwork in the real world, or *comment*  on existing artworks in the gallery by overlaying new drawings.
 
@@ -14,14 +14,14 @@ Important Update to the project:
     - Grab and Move the selected emojis and strokes
     - Delete the selected smojis and strokes all at once
     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo7.gif" width="280">
-     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo8.gif" width="280">
+    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo8.gif" width="280">
 
 ## Update Nov. 3rd ![Message](https://img.shields.io/badge/-Minor-critical)
 Minor Adjustments:
 - Improved drawing/emoji feature for ore accurate manipulation
   - Emojis can be scaled freely with the controller
-- Interactions are made more consistent to reduce potential errors
-<img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo5.gif" width="280">
+- Interactions are made more consistent to reduce potential errors<br><br>
+     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo5.gif" width="280">
      <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo6.gif" width="280">
 
 ## Update Oct. 11th ![Message](https://img.shields.io/badge/-Important!-success)
