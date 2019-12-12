@@ -13,12 +13,16 @@ Important Update to the project:
   - After selection, they can
     - Grab and Move the selected emojis and strokes
     - Delete the selected smojis and strokes all at once
+    <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo7.gif" width="280">
+     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo8.gif" width="280">
 
-## Update Nov. 3rd ![Message](https://img.shields.io/badge/-Important!-success)
+## Update Nov. 3rd ![Message](https://img.shields.io/badge/-Minor-critical)
 Minor Adjustments:
 - Improved drawing/emoji feature for ore accurate manipulation
   - Emojis can be scaled freely with the controller
 - Interactions are made more consistent to reduce potential errors
+<img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo5.gif" width="280">
+     <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo6.gif" width="280">
 
 ## Update Oct. 11th ![Message](https://img.shields.io/badge/-Important!-success)
 Important Update to the project:
