@@ -2,16 +2,16 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "10df68df79ca47fcce2e391c3999b722ea157efa",
+   "hash": "8027b9b6a443ad65392cf5b2c67711aec30a0d4e",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 4685424,
+   "size": 4688632,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "a612bc4b2c57221424fac83a441cf3ee0ba9fdb7",
+   "hash": "51d090da97537ba9565ec17ecc3d6b6b76fb38b4",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 67662832,
+   "size": 67707024,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -23,9 +23,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "e20b1c4a946fae8cf862564420bc724ce68a8c50",
+   "xfrm_hash": "a58d40f9589586da105e502937f42997fe52cfb6",
    "xfrm_path": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/.out/.cache/debug_lumin_clang-3.8_aarch64/com.magicleap.cscwdemo-18ff63f825f2fb90\\libil2cpp.so-b32bd8bc2d4214ef",
-   "xfrm_size": 67663590
+   "xfrm_size": 67707782
   },
   {
    "compression": 8,
@@ -165,28 +165,28 @@
   },
   {
    "compression": 8,
-   "hash": "b6ae68f9389b79414db92fbe26dc6d876b3651fc",
+   "hash": "cebcb74a9c9b769e83d3db99b350042ea19c0fba",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 78296,
+   "size": 79304,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "214135306440b6bd20f73a8c4d8af24f13140ed6",
+   "hash": "fb9962b035a0a8bdb24b398a45f64cfa72d9cae0",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 92888,
+   "size": 93312,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "c7fc2782ecf54935f9a5f7ebb8271661edb4fbab",
+   "hash": "960f5bc713b1f09eeae316740486600f0456084d",
    "pkgpath": "Data/level0",
-   "size": 41020,
+   "size": 46244,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/level0"
   },
   {
    "compression": 8,
-   "hash": "650f98f51536b1847b0b91cc7361a80c54631f9b",
+   "hash": "15393a2a928d55c45c7b5b43fd747f788fc640df",
    "pkgpath": "Data/resources.assets",
    "size": 24380480,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/resources.assets"
@@ -200,16 +200,16 @@
   },
   {
    "compression": 8,
-   "hash": "d40c6792d423dc2c01b81bf9d6884c369250e418",
+   "hash": "d9af5a2ab6bca13313e12df56b03057c8c2e7f48",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 6108928,
+   "size": 6238648,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
    "compression": 8,
-   "hash": "e0a978b90f1c0552daf910bff73a79cbf61f5f3b",
+   "hash": "9ff1fa26a5deae64b242c6161c6ace77138abe0d",
    "pkgpath": "Data/sharedassets0.assets.resS",
-   "size": 45387968,
+   "size": 45912256,
    "src": "C:/Users/Eric Lu/Documents/GitHub/AR-Goggle-Bulletin/Temp/StagingArea/Data/sharedassets0.assets.resS"
   },
   {

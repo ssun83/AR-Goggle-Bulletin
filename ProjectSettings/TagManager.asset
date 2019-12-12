@@ -12,6 +12,7 @@ TagManager:
   - Emoji
   - picker
   - Brush
+  - Stroke
   layers:
   - Default
   - TransparentFX

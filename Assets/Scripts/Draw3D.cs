@@ -14,7 +14,7 @@ public class Draw3D : MonoBehaviour
     public GameObject parent;
     public ModeControl mc;
     public Material[] MatList;
-
+    public GameObject palette;
     public List<GameObject> strokes;
     // Start is called before the first frame update
     void Start()
@@ -58,6 +58,7 @@ public class Draw3D : MonoBehaviour
                 return;
 
             //temp.transform.SetParent(parent.transform);
+            palette.SetActive(true);
             temp = null;
             activeLine = null;
             key = false;
@@ -71,10 +72,13 @@ public class Draw3D : MonoBehaviour
             if (!mc.isDrawing)
                 return;
 
+            palette.SetActive(false);
+            MLInputController controller = _controllerConnectionHandler.ConnectedController;
             temp = Instantiate(Line);
             activeLine = temp.GetComponent<Draw>();
             activeLine.SetMaterial(DrawTip.GetComponent<Renderer>().material);
             strokes.Add(temp);
+            controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.Buzz, MLInputControllerFeedbackIntensity.Medium);
             key = true;
         }
     }
@@ -82,14 +86,15 @@ public class Draw3D : MonoBehaviour
     private void HandleOnButtonDown(byte controllerId, MLInputControllerButton button)
     {
         MLInputController controller = _controllerConnectionHandler.ConnectedController;
+        controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.ForceUp, MLInputControllerFeedbackIntensity.Low);
         if (controller != null && controller.Id == controllerId &&
             button == MLInputControllerButton.HomeTap && mc.isDrawing)
         {
             int count = strokes.Count;
             if (count > 0)
             {
-                Destroy(strokes[count - 1]);
                 strokes.RemoveAt(count - 1);
+                Destroy(strokes[count - 1]);
             }
         }
     }

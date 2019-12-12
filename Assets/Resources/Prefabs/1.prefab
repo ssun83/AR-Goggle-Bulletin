@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 7136482681741671610}
   - component: {fileID: 3268356837224214197}
   - component: {fileID: 1561169457366654490}
+  - component: {fileID: 197717870310768203}
+  - component: {fileID: 2194892644358260684}
+  - component: {fileID: 2802021694221952043}
   m_Layer: 0
   m_Name: 1
   m_TagString: Emoji
@@ -92,3 +95,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e166afcc9b1188c46b79a4a87a8e1201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &197717870310768203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7113813818595941519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0b395201ca5bc46be07f6309c4aacd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  status: 0
+  sr: {fileID: 3268356837224214197}
+  waiting: 0
+  waitTime: 1.5
+--- !u!65 &2194892644358260684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7113813818595941519}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.219998, y: 12.219998, z: 5.8981614}
+  m_Center: {x: 0, y: -0.00000055438613, z: 0.5983335}
+--- !u!54 &2802021694221952043
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7113813818595941519}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

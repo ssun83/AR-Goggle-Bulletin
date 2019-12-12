@@ -11,6 +11,7 @@ public class BrushSelect : MonoBehaviour
     public Draw3D draw3d;
     public int id;
     private Vector3 initialScale;
+    public ControllerConnectionHandler _controllerConnectionHandler;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,10 +28,13 @@ public class BrushSelect : MonoBehaviour
     {
         if (other.tag == "picker")
         {
+            MLInputController controller = _controllerConnectionHandler.ConnectedController;
             currentSelect = id;
             transform.DOLocalMoveZ(-0.5f, .3f);
             transform.DOScale(initialScale * 1.2f, .3f);
             DrawTip.GetComponent<Renderer>().material = draw3d.MatList[currentSelect];
+            MLInputControllerFeedbackIntensity intensity = (MLInputControllerFeedbackIntensity)((int)(.8f));
+            controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.Buzz, intensity);
         }
     }
 

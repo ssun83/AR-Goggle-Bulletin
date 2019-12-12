@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 6637603274858270553}
   - component: {fileID: 4091965157443231305}
   - component: {fileID: 6523560335091598528}
+  - component: {fileID: 1865915707880936575}
   m_Layer: 0
   m_Name: Lines
-  m_TagString: Untagged
+  m_TagString: Stroke
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6684788387765431178}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.010851, y: 0.00455, z: 0.028349996}
-  m_LocalScale: {x: 0.2963044, y: 0.2963044, z: 0.2963044}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1375168327137897165}
   m_Father: {fileID: 0}
@@ -124,7 +125,7 @@ LineRenderer:
     textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
-  m_UseWorldSpace: 1
+  m_UseWorldSpace: 0
   m_Loop: 0
 --- !u!114 &6523560335091598528
 MonoBehaviour:
@@ -140,6 +141,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lr: {fileID: 4091965157443231305}
   text: {fileID: 8058491158016550518}
+--- !u!114 &1865915707880936575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6684788387765431178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb39762a693f49343a18d1d28cebf83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  status: 0
+  lr: {fileID: 4091965157443231305}
+  waiting: 0
+  waitTime: 3
 --- !u!1 &8974281731625831904
 GameObject:
   m_ObjectHideFlags: 0
