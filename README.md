@@ -25,6 +25,7 @@ Important Update to the project:
 Minor Adjustments:
 - Improved drawing/emoji feature for ore accurate manipulation
   - Emojis can be scaled freely with the controller
+  - Menus was hided while drawing to avoid error
   - Interactions are made more consistent to reduce potential errors<br><br>
      <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo7.gif" width="250">
      <img src="https://github.com/ssun83/AR-Goggle-Bulletin/blob/master/gifs/demo5.gif" width="250">
