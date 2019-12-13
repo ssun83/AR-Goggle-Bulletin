@@ -23,7 +23,7 @@ Important Update to the project:
 
 ## Update Nov. 3rd ![Message](https://img.shields.io/badge/-Minor-critical)
 Minor Adjustments:
-- Improved drawing/emoji feature for ore accurate manipulation
+- Improved drawing/emoji feature for more accurate manipulations
   - Emojis can be scaled freely with the controller
   - Menus was hided while drawing to avoid error
   - Interactions are made more consistent to reduce potential errors<br><br>
